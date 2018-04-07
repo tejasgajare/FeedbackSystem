@@ -1,0 +1,17 @@
+from django.contrib import admin
+from .models import Subject, Department, Profile, Student, Faculty, Classroom, TeacherSubject, Auditor, Coordinator, Tag, QuestionType, FeedbackForm,Question, FeedbackResponse,TextualResponse
+admin.site.register(Subject)
+admin.site.register(Department)
+admin.site.register(Profile)
+admin.site.register(Student)
+admin.site.register(Faculty)
+admin.site.register(TeacherSubject)
+admin.site.register(Classroom)
+admin.site.register(Auditor)
+admin.site.register(Coordinator)
+admin.site.register(Tag)
+admin.site.register(QuestionType)
+admin.site.register(FeedbackForm)
+admin.site.register(Question)
+admin.site.register(FeedbackResponse)
+admin.site.register(TextualResponse)
